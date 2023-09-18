@@ -7,7 +7,7 @@ import pandas as pd
 
 #load_figure_template('JOURNAL')
 
-df = pd.read_csv('src/mock-data.csv')
+df = pd.read_csv('../src/mock-data.csv')
 
 app = Dash(__name__, external_stylesheets=[dbc.themes.JOURNAL])
 server = app.server

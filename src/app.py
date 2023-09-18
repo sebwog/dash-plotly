@@ -11,6 +11,8 @@ df = pd.read_csv('src/mock-data.csv')
 
 app = Dash(__name__, external_stylesheets=[dbc.themes.JOURNAL])
 
+server = app.server
+
 
 def generate_dropdown():
     # Dropdown dictionary

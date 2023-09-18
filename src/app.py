@@ -10,7 +10,6 @@ import pandas as pd
 df = pd.read_csv('src/mock-data.csv')
 
 app = Dash(__name__, external_stylesheets=[dbc.themes.JOURNAL])
-
 server = app.server
 
 
@@ -155,7 +154,7 @@ def update_df(selected_markets, selected_age_groups, selected_genders, selected_
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run_server(debug=True)
 
 
 ## tod  do:

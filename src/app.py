@@ -56,9 +56,9 @@ app.layout = dbc.Container([
 
     dbc.Row([
         dbc.Col([
-            html.H2(style={'textAlign': 'center', 'height': '100px'}),  # whitespace
+            html.H2(style={'textAlign': 'center', 'height': '50px'}),  # whitespace
             html.H3('Churn Analysis Dashboard',
-                    style={'textAlign': 'center', 'height': '200px', "font-weight": "bold"}),
+                    style={'textAlign': 'center', 'height': '1500px', "font-weight": "bold"}),
         ], width=12
         )
     ]),

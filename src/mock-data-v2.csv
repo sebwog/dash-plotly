@@ -1,4 +1,4 @@
-Respondent_ID,Churn_reason,Market,Gender,AOV,App_use,Date,Age_group,Churn_type,Orders_5y,Orders_1y,Card_use,CS_contact,Shopping_search
+Respondent_ID,Churn_reason,Market,Gender,AOV,App_use,Date,Age_group_2,Churn_type,Orders_5y,Orders_1y,Card_use,CS_contact,Shopping_search
 1835288734759536,Reason for General sentiment,Australia,Male,116,0,2023-05-01,Age 45-54,General sentiment,23,6,0,1,0
 5561349244272985,Reason for Negative Customer Service Experiences,Australia,Female,110,0,2023-03-01,Age 25-34,Negative Customer Service Experiences,15,7,1,1,0
 5916032743806637,Reason for Account Suspension Issues,Germany,Male,130,1,2023-02-01,Age 55+,Account Suspension Issues,20,3,1,0,1

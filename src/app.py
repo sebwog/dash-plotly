@@ -12,7 +12,7 @@ df = pd.read_csv('../src/mock-data-v2.csv')
 
 df = df[df.Churn_type != 'No answer']
 
-app = Dash(__name__, external_stylesheets=[dbc.themes.JOURNAL])
+app = Dash(__name__, external_stylesheets=[dbc.themes.JOURNAL], assets_folder = 'assets')
 server = app.server
 
 # def generate_dropdown():

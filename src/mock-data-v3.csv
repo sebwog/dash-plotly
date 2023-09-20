@@ -1,4 +1,4 @@
-Respondent_ID,Churn_reason,Market,Gender,AOV,App_use,Date,Age_group,Churn_type,Orders_5y,Orders_1y,Card_use,CS_contact,Shopping_search
+Respondent_ID,Churn_reason,Market,Gender,AOV,App_use,Date,Age_group_2,Churn_type,Orders_5y,Orders_1y,Card_use,CS_contact,Shopping_search
 6435232308694231,Reason for Unclassified,Italy,Female,219.02128335647512,1,2023-01-01,Age 35-44,Unclassified,21,5,0,1,0
 7656497838270971,Reason for Negative Customer Service Experiences,Sweden,Female,174.96401124382368,1,2023-04-01,Age 18-24,Negative Customer Service Experiences,25,7,0,0,1
 3517671407748949,Reason for Better alternatives,France,Female,130.01480048678667,1,2023-06-01,Age 18-24,Better alternatives,24,5,1,1,1

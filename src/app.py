@@ -7,12 +7,13 @@ import pandas as pd
 
 #load_figure_template('JOURNAL')
 
-df = pd.read_csv('processed_data_230919v2.csv')
+#df = pd.read_csv('processed_data_230919v2.csv')
+df = pd.read_csv('../src/mock-data-v2.csv')
 
 df = df[df.Churn_type != 'No answer']
 
 app = Dash(__name__, external_stylesheets=[dbc.themes.JOURNAL])
-#server = app.server
+server = app.server
 
 # def generate_dropdown():
 #     # Dropdown dictionary
@@ -350,7 +351,7 @@ def update_df(selected_markets, selected_age_groups, selected_genders, #selected
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
-    #app.run_server(debug=True)
+    #app.run(debug=True)
+    app.run_server(debug=True)
 
 
